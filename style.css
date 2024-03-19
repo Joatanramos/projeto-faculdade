@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0: #A9E5EB;
+    --cor1: #538ACD;
+    --cor2: #5D7CA2;
+    --cor3: #95A8AB;
+    --cor4: #596778;
+    --cor5: #283D56;
+}
+
+body {
+    background-color: #5d7ca28e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2), var(--cor1));
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: -20px;
+}
+header > h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+}
+header > h2 {
+    font-size: 1.6em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+nav{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor4));
+    margin-top: -15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav > a {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: 1.2em;
+padding: 10px;
+color: var(--cor5);
+text-decoration: none;
+border-radius: 5px;
+}
+nav > a:hover {
+    background-color: #3c75bb;
+    color: black;
+}
+* p {
+    text-align: justify;
+    text-indent: 20px;
+   
+}
+li {
+    font-style: italic;
+font-weight: bold;
+}
+* li > a {
+font-style: italic;
+font-weight: bold;
+color: black;
+text-decoration: none;
+}
+li > a:hover {
+    text-decoration: underline;
+    color: #3c75bb;
+}
+main {
+    background-color: whitesmoke;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
+    text-indent: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor1), transparent);
+    border-radius: 10px 0px 0px 10px; 
+}
+main h3 {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor1), transparent);
+    text-indent: 8px;
+    border-radius: 5px 0px 0px 5px;
+}
+aside {
+    background-color: #8ebdf785;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+footer > p {
+    background-color: 5d7ca28e;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.096);
+    padding: 5px;
+}
