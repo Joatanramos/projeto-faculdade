@@ -11,7 +11,12 @@
 }
 
 body {
+    background-image: url('https://img.odcdn.com.br/wp-content/uploads/2023/07/Nuvens-1.jpg');
+    height: 100vg;
     background-color: #5d7ca28e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
